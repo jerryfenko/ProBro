@@ -1,43 +1,49 @@
 body {
-  margin: 0%;
-  font-family: "Ubuntu", sans-serif;
+    margin: 0%;
+    font-family: "Ubuntu", sans-serif;
 }
-.back {
-  background-image: url("./photo.jpeg");
-  height: 750px;
-  background-size: cover;
+/* .back { */
+/* background-image: url("./photo.jpeg"); */
+/* height: 750px; */
+/* background-size: cover; */
+/* } */
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 nav {
-  font-size: 20px;
-  font-weight: 700;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
 }
 
 .nav-link {
-  text-transform: uppercase;
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: top;
-  margin: 40px 20px;
-  border: 3px;
-  padding: 10px;
-  border-style: solid;
-  border-color: initial;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 20px;
+    border: 3px;
+    padding: 10px;
+    border-style: solid;
+    border-color: initial;
 }
 
 h1 {
-  color: white;
-  font-size: 60px;
-  margin: 0;
-  margin-left: 20px;
-  margin-top: 100px;
-  padding-left: 0;
-  text-shadow: 0px 0px 10px rgb(116, 30, 30);
-  /* text-align: center; */
-  /* font-weight: 700; */
-  /* text-align: center; */
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-left: 0;
+    text-shadow: 0px 0px 10px rgb(116, 30, 30);
+    /* text-align: center; */
+    /* font-weight: 700; */
+    /* text-align: center; */
 }
